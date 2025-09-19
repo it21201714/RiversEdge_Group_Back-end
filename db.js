@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-var mongoURT = 'mongodb+srv://dhana1234:dhana1234@cluster0.lxgr1rp.mongodb.net/dhana1234'
+var mongoURT = 'enter db string'
 
 mongoose.connect(mongoURT , {useUnifiedTopology : true, useNewUrlParser: true})
 
